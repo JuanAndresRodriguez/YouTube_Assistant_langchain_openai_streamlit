@@ -1,0 +1,13 @@
+# Create virtual enviroment
+python -m venv .venv
+# Activate virtual enviroment
+.venv/Scripts/Activate.ps1
+# Installing packages langchain, openai, streamlit, python-dotenv
+pip install langchain openai streamlit python-dotenv
+pip install -U langchain-community 
+pip install youtube-transcript-api
+pip install YouTube-Loader
+pip install tiktoken
+pip install faiss-cpu
+# create requirements.txt file
+pip3 freeze > requirements.txt
